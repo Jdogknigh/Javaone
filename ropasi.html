@@ -9,6 +9,10 @@
     body {
         width: 50%;
         margin: 0 auto;
+        
+    }
+    .lastResult {
+      color: black;
     }
 </style>
   </head>
@@ -17,16 +21,26 @@
     <p>We need to pick Rock Paper or Siccors, lets see if you can beat the computer! </p>
    
     <div class="form">
-        <label for="guessField">Enter a guess: </label> 
+     <!-----   <label for="guessField">Enter a guess: </label> --->
         
-        <input type="text" id="guessField" class="guessField">
-        
-        <input type="submit" value="Submit guess" class="guessSubmit">
-      </div>
+       <!--- <input type="text" id="guessField" class="guessField">-->
+        <!---the three buttons for the game to work-->
+        <button onclick="playerSelectionrock()">Rock</button>
+        <button onclick="playerSelectionpaper()">Paper</button>
+        <button onclick="playerSelectionsiccors()">Siccors</button>
 
-<div class ="resultParas"
-><p class = "guesses"></p>
-</div>
+    </div>
+      <div class="scores">
+        <p class="playerscore"></p>
+        <p class="computerscore"></p>
+      </div>
+        <div class="resultParas">
+            <p class="guesses"></p>
+            <p class="lastResult"></p>
+           <p class="computerguess"></p>
+            <div id=counter></div> 
+        </div>
+
 <script src="ropasi.js">
     
 </script>
