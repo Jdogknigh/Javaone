@@ -149,12 +149,13 @@ console.log (gameplay ())
    // {disableButtons ()}}
 //console.log (gameplay ())
 //button.playerSelectionrock.addEventListener('click', playerSelectionRock);
-     
+   //  console.log(document.getElementsByName())
    
 //function counterw (){
- //let i=0; i < 5; i++
+//for (let i=0; i < 5; i++)
+// if (resultpara = "you win!"
+// counter +=1
 //}
-
     //code
 //still need counter, block out buttons after use
 //reset button
